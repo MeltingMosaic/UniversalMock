@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/MeltingMosaic/UniversalMock.svg?branch=master)](https://travis-ci.org/MeltingMosaic/UniversalMock)
+
 # UniversalMock
 A JavaScript object that is _everything_...
 
