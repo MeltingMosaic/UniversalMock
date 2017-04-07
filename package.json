@@ -4,7 +4,7 @@
   "description": "A JavaScript object that is everything",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt verify -v"
   },
   "repository": {
     "type": "git",
