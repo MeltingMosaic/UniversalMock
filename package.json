@@ -2,7 +2,7 @@
   "name": "universal-mock",
   "version": "1.0.0",
   "description": "A JavaScript object that is everything",
-  "main": "index.js",
+  "main": "dist/universalMock.js",
   "scripts": {
     "test": "grunt verify -v"
   },

@@ -1,3 +1,4 @@
 node_modules/
 test_temp/
 .tscache/
+dist/
