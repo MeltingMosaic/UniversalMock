@@ -1,6 +1,12 @@
 # UniversalMock [![Build Status](https://img.shields.io/travis/MeltingMosaic/UniversalMock/master.svg)](https://travis-ci.org/MeltingMosaic/UniversalMock) [![npm](https://img.shields.io/npm/v/universal-mock.svg)](https://www.npmjs.com/package/universal-mock)  [![npm](https://img.shields.io/npm/dt/universal-mock.svg)](https://www.npmjs.com/package/universal-mock)
 A JavaScript object that is _everything_...
 
+# Install
+```
+npm install --save-dev universal-mock
+```
+
+# Usage
 Universal Mock is an object that pretends to have every property, and will return a Universal Mock for everything, so you can do
 
 ```javascript
