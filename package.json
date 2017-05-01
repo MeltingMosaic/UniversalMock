@@ -1,6 +1,6 @@
 {
   "name": "universal-mock",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JavaScript object that is everything",
   "main": "dist/universalMock.js",
   "scripts": {
