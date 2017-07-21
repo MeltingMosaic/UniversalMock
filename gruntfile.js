@@ -10,10 +10,10 @@ module.exports = function (grunt) {
     }
   });
   grunt.loadNpmTasks("grunt-ts");
-  
+
   grunt.registerTask("jasmine", function() {
     const done = this.async();
-    child_process.exec("node ./node_modules/jasmine/bin/jasmine.js", {
+    child_process.spawn("node", ["./node_modules/jasmine/bin/jasmine.js"], {
       stdio: "inherit"
     }).on("close", (code) => {
       if(code) {

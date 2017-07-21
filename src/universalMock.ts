@@ -2,6 +2,7 @@ const createProxy = function() {
     // our proxy object; we're overriding its get, set, and has traps to
     // intercept those operations
     const target = function(){ return createProxy(); };
+    target[Symbol.toPrimitive] = () => "UniversalMock";
 
     return new Proxy(target, {
         // tslint:disable-next-line:no-reserved-keywords
