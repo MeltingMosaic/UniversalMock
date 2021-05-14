@@ -26,8 +26,8 @@ npm install --save-dev universal-mock
 
 Universal Mock is an object that pretends to have every property, and will return a Universal Mock for everything, so you can do
 
-```javascript
-const mock = require("universalMock");
+```typescript
+import { mock } from "universal-mock";
 
 mock.anythingAtAll === undefined; // false!
 mock.anythingAtAll === null; // false!
@@ -38,12 +38,20 @@ mock.someMethod = jest.fn(); // It works great with Jest!
 
 You can also set pre-determined value for any mock at any level:
 
-```javascript
+```typescript
 mock.value = 42;
 console.log(mock.value); // Returns "42"
 
 mock.something = () => "Hello!";
 console.log(mock.something()); // "Hello!"
+```
+
+You can also generate new mock instances:
+
+```typescript
+import { createMock } from "universal-mock";
+
+const myMock = createMock();
 ```
 
 Universal Mock is useful when you only want to mock out part of an object and don't care about the rest. This is particularly useful in TypeScript where interfaces may require
