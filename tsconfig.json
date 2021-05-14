@@ -1,17 +1,8 @@
 {
+  "extends": "./typescript/tsconfig.base.json",
   "compilerOptions": {
+    "target": "es2015",
     "module": "commonjs",
-    "target": "es6",
-    "noImplicitAny": false,
-    "sourceMap": true,
-    "outDir": "test_temp",
-    "typeRoots": ["node_modules/@types"]
-  },
-  "include": [
-    "src/**/*.ts",
-    "spec/**/*.ts"
-  ],
-  "exclude": [
-    "**/*.d.ts"
-  ]
+    "outDir": "./dist/cjs"
+  }
 }
