@@ -1,4 +1,4 @@
-[![Build Status](https://img.shields.io/travis/MeltingMosaic/UniversalMock/master.svg)](https://travis-ci.org/MeltingMosaic/UniversalMock)
+[![Node.js CI](https://github.com/MeltingMosaic/UniversalMock/actions/workflows/node.js.yml/badge.svg)](https://github.com/MeltingMosaic/UniversalMock/actions/workflows/node.js.yml)
 [![npm](https://img.shields.io/npm/v/universal-mock.svg)](https://www.npmjs.com/package/universal-mock)
 [![npm](https://img.shields.io/npm/dt/universal-mock.svg)](https://www.npmjs.com/package/universal-mock)
 
